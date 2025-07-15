@@ -1,13 +1,12 @@
 # 💿 Windows CMD Simulator
 
-A simple command prompt simulator styled like the classic Windows CMD interface, built using HTML, CSS, and JavaScript.  
-Type custom commands and see responses inside a terminal-like UI.
+A simple command prompt simulator styled like the classic Windows CMD interface, built using HTML, CSS, and JavaScript. Type custom commands and see responses inside a terminal-like UI.
 
 ## ▶️ Commands
 
 | Command | Description              |
 | ------- | ------------------------ |
-| `test`  | Prints `Test!`           |
+| `test`  | Prints a test message    |
 | `help`  | Shows available commands |
 | `clear` | Clears the terminal      |
 
@@ -17,8 +16,6 @@ Got an <b>idea</b>? Want to add something awesome? <a href="https://github.com/C
 
 ## ⚠️ Disclaimer
 
-This project is for educational and demonstration purposes only.  
-It does not provide real command-line functionality and should not be used in production environments.  
-The author is not responsible for any misuse or damage resulting from the use of this code.
+This project is for educational and demonstration purposes only. It does not provide real command-line functionality and should not be used in production environments. The author is not responsible for any misuse or damage resulting from the use of this code. This project is not affiliated with, endorsed by, or connected to Microsoft or the Windows operating system in any way. All trademarks belong to their respective owners.
 
 Made with ❤️ by <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b>
