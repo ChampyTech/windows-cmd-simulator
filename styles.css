@@ -30,3 +30,8 @@ input {
     width: auto;
     flex: 1;
 }
+
+::selection {
+    background: white;
+    color: black;
+}
