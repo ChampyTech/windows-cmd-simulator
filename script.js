@@ -37,21 +37,31 @@ function handleCommand(cmd) {
     const output = document.createElement('div');
     switch (cmd.toLowerCase()) {
         case 'test':
-            output.textContent = 'Test!';
+            output.textContent = 'This is a test command!';
             break;
         case 'help':
             output.textContent = `---------- Windows CMD Simulator ----------
 A simple command prompt simulator styled like the classic Windows CMD interface, built using HTML, CSS, and JavaScript. Type custom commands and see responses inside a terminal-like UI.
 Here is a list of all available commands:
-| test  | Prints "Test!"           |
+| test  | Prints a test message    |
 | help  | Shows available commands |
-| clear | Clears the terminal      |`;
+| clear | Clears the terminal      |
+| time  | Returns the current time |
+| date  | Returns the current date |`;
+            break;
+        case 'time':
+            const time = new Date().toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit', second: '2-digit' });
+            output.textContent = `Current time: ${time} (UTC)`;
+            break;
+        case 'date':
+            const date = new Date().toLocaleDateString('en-US', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
+            output.textContent = `Current date: ${date} (UTC)`;
             break;
         case 'clear':
             terminal.innerHTML = '';
             return;
         default:
-            output.textContent = `'${cmd}' non è riconosciuto come comando interno o esterno.`;
+            output.textContent = `'${cmd}' is not recognized as an internal or external command, operable program or batch file.`;
     }
 
     terminal.appendChild(output);

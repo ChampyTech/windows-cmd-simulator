@@ -9,6 +9,8 @@ A simple command prompt simulator styled like the classic Windows CMD interface,
 | `test`  | Prints a test message    |
 | `help`  | Shows available commands |
 | `clear` | Clears the terminal      |
+| `time`  | Returns the current time |
+| `date`  | Returns the current date |
 
 ## 🙏 Contributing
 
