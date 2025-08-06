@@ -1,5 +1,10 @@
 # 💿 Windows CMD Simulator
 
+<p>
+  <img alt="Contributions welcome" src="https://img.shields.io/badge/Contributions-welcome-green">
+  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-orange">
+</p>
+
 A simple command prompt simulator styled like the classic Windows CMD interface, built using HTML, CSS, and JavaScript. Type custom commands and see responses inside a terminal-like UI.
 
 ## ▶️ Commands
