@@ -7,6 +7,8 @@
 
 A simple command prompt simulator styled like the classic Windows CMD interface, built using HTML, CSS, and JavaScript. Type custom commands and see responses inside a terminal-like UI.
 
+📬 **Want to contribute?** Open a pull request or an issue. Even small contributions are welcome!
+
 ## ▶️ Commands
 
 | Command | Description              |
