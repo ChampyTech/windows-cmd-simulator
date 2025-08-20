@@ -30,5 +30,3 @@ This project is for educational and demonstration purposes only. It does not pro
 ## 🎫 License
 
 This project is licensed under the [MIT License](LICENSE.md).
-
-Made with ❤️ by <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b>
