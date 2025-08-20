@@ -27,4 +27,8 @@ Open a pull request or an issue. Even small contributions are welcome!
 
 This project is for educational and demonstration purposes only. It does not provide real command-line functionality and should not be used in production environments. The author is not responsible for any misuse or damage resulting from the use of this code. This project is not affiliated with, endorsed by, or connected to Microsoft or the Windows operating system in any way. All trademarks belong to their respective owners.
 
+## 🎫 License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
 Made with ❤️ by <b><a href="https://github.com/ChampyTech" target="_blank">ChampyTech</a></b>
