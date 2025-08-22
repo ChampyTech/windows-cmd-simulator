@@ -12,7 +12,7 @@ function createNewLine() {
 
     const prompt = document.createElement('span');
     prompt.className = 'prompt';
-    prompt.textContent = 'C:\\Windows\\system32>';
+    prompt.textContent = 'C:\\Windows\\System32>';
 
     const input = document.createElement('input');
     input.type = 'text';
